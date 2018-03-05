@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3104ef1-7b18-445b-82e2-8521b76007a0" name="Default" comment="calcengine">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/eko/calcengine/MathEquation.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../homeLearning/Jlearn/src/arrays.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../homeLearning/Jlearn/src/switchTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../homeLearning/out/production/Jlearn/arrays.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../homeLearning/out/production/Jlearn/switchTest.class" />
+    <list default="true" id="d3104ef1-7b18-445b-82e2-8521b76007a0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/out/production/CalcEngine/eko/calcengine/Main.class" afterPath="$PROJECT_DIR$/out/production/CalcEngine/eko/calcengine/Main.class" />
-      <change beforePath="$PROJECT_DIR$/src/eko/calcengine/Main.java" afterPath="$PROJECT_DIR$/src/eko/calcengine/Main.java" />
       <change beforePath="$PROJECT_DIR$/../HW/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HW/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../homeLearning/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../homeLearning/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +29,8 @@
       <file leaf-file-name="arrays.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../homeLearning/Jlearn/src/arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="246">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -197,6 +190,14 @@
       <option name="presentableId" value="Default" />
       <updated>1520191366502</updated>
     </task>
+    <task id="LOCAL-00001" summary="calcengine">
+      <created>1520275031242</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1520275031242</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -280,8 +281,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../homeLearning/Jlearn/src/arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="246">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding />
         </state>
       </provider>
