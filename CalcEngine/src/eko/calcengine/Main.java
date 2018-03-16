@@ -1,30 +1,36 @@
 package eko.calcengine;
 
 public class Main {
-private static MathEquation create(double leftVal, double rightVal, char opCode) {
-    MathEquation equation = new MathEquation();
-    equation.leftval = leftVal;
-    equation.rightval = rightVal;
-    equation.opCode = opCode;
-    return equation;
+    /*
+  private static MathEquation create (double leftVal, double rightVal, char opCode) {
+      MathEquation equation = new MathEquation();
+      equation.setLeftval(leftVal);
+      equation.setRightval(rightVal);
+      equation.setOpCode(opCode);
+      return equation;
 }
-
-    public static void main(String[] args) {
-     /*
-        double[] leftvals  = {10.00, 20.00, 30.00, 40.00};
-	double[] rightvals = {50.00, 60.00, 0.00, 2.00};
-	char[] opCodes = {'a','s','d','m'};
-	double[] results = new double[opCodes.length];
-    */
+*/
+  public static void main(String[] args) {
+   /*
+      double[] leftvals  = {10.00, 20.00, 30.00, 40.00};
+  double[] rightvals = {50.00, 60.00, 0.00, 2.00};
+  char[] opCodes = {'a','s','d','m'};
+  double[] results = new double[opCodes.length];
+  */
+       /*
+     MathEquation firsteq = new MathEquation();
+     firsteq.execute();
+     firsteq.getResult();
+     */
     MathEquation[] equations = new MathEquation[4];
-        equations[0] = create(100.00,40.00,'a');
-        equations[1] = create(50.00,40.00,'s');
-        equations[2] = create(20.00,40.00,'m');
-        equations[3] = create(10.00,40.00,'d');
+        equations[0] = new MathEquation(100.00,40.00,'a');
+        equations[1] = new MathEquation(50.00,40.00,'s');
+        equations[2] = new MathEquation(20.00,40.00,'m');
+        equations[3] = new MathEquation(10.00,40.00,'d');
 
         for (MathEquation equation: equations){
             equation.execute();
-            System.out.println("Result for operation "+equation.opCode+" is: "+ equation.result);
+            System.out.println("Result for operation "+equation.getOpCode()+" is: "+ equation.getResult());
         }
 	/*
 	opCode = 'd';
