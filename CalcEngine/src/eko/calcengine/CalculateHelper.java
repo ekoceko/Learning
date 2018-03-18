@@ -72,7 +72,8 @@ public class CalculateHelper {
         resultString.append(rightvalue);
         resultString.append(" = ");
         resultString.append(result);
-        return resultString.toString();
+        String finalResult = resultString.toString();
+        return finalResult;
     }
 
     private void setCommandFromString(String commandString) throws InvalidStatementException {
