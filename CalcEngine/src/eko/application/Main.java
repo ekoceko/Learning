@@ -1,4 +1,6 @@
-package eko.calcengine;
+package eko.application;
+
+import eko.calcengine.*;
 
 public class Main {
     /*
@@ -10,7 +12,33 @@ public class Main {
       return equation;
 }
 */
-  public static void main(String[] args) {
+  public static void main(String[] args)  {
+
+      String[] statements = {
+              "add 1.0",
+              "add xx 1.5",
+              "addx 1.0 1.4",
+              "divide 100.00 50.00",
+              "add 5.00 10.00",
+              "subtract 412.00 212.00",
+              "multiply 50.00 20.00"};
+      CalculateHelper ch = new CalculateHelper();
+      for (String statement:statements) {
+           try {
+               ch.process(statement);
+               System.out.println(ch);
+           }catch (InvalidStatementException i){
+               System.out.println(i.getMessage());
+               if (i.getCause()!=null)
+                   System.out.println("Original Cause: "+i.getCause().getMessage());
+           }
+
+
+      }
+
+
+
+
    /*
       double[] leftvals  = {10.00, 20.00, 30.00, 40.00};
   double[] rightvals = {50.00, 60.00, 0.00, 2.00};
@@ -21,7 +49,44 @@ public class Main {
      MathEquation firsteq = new MathEquation();
      firsteq.execute();
      firsteq.getResult();
-     */
+
+       Adder add = new Adder(3,4);
+       add.calculate();
+       Subtracter sub = new Subtracter(1,3);
+       sub.calculate();
+       Multiplier mul = new Multiplier(5,9);
+       mul.calculate();
+       Divider divtozero = new Divider(5,0);
+       divtozero.calculate();
+      Divider divtox = new Divider(50,10);
+      divtox.calculate();
+    */
+
+
+
+      CalculateBase[] calculateBases = {
+              new Adder(3,4),
+              new Subtracter(1,3),
+              new Multiplier(5,9),
+              new Divider(50,10)};
+
+      for (CalculateBase calculateBase:calculateBases){
+          calculateBase.calculate();
+          System.out.println("result of operation "+calculateBase.getClass()+" is: "+calculateBase.getResult());
+      }
+
+      /*
+      for(int i= 0; i < calculateBases.length;i++){
+          calculateBases[i].calculate();
+          System.out.println("result of operation "+(i+1)+" is: "+calculateBases[i].getResult());
+      }
+
+
+
+
+
+
+      /*
     MathEquation[] equations = new MathEquation[4];
         equations[0] = new MathEquation(100.00,40.00,'a');
         equations[1] = new MathEquation(50.00,40.00,'s');
@@ -32,33 +97,20 @@ public class Main {
             equation.execute();
             System.out.println("Result for operation "+equation.getOpCode()+" is: "+ equation.getResult());
         }
-	/*
-	opCode = 'd';
+      System.out.println("starting overloads");
+double lv = 10.0;
+double rv = 4.0;
+int lvi = 10;
+int rvi = 4;
+      MathEquation eqoverloaddiv = new MathEquation('d');
+        eqoverloaddiv.execute(lv,rv);
+      System.out.println("Result for overload operation "+eqoverloaddiv.getOpCode()+" is: "+ eqoverloaddiv.getResult());
+      eqoverloaddiv.execute(lvi,rvi);
+      System.out.println("Result for overload operation "+eqoverloaddiv.getOpCode()+" is: "+ eqoverloaddiv.getResult());
 
-	if(opCode == 'a')
-	    result = val1 + val2;
-    else if(opCode== 's')
-        result = val1 - val2;
-    else if(opCode== 'd'){
-
-        if(val2==0){
-            System.out.println("Cannot divide by zero");
-            result=0.0;
-            }
-        else
-
-        result = val2 != 0 ? val1 / val2: 0.0;
-         }
-    else if(opCode== 'm')
-        result = val1 * val2;
-    else {
-        result = 0.0;
-        System.out.println("invalid operation");
-        }
-    System.out.println("result is: "+result);
-
-
-    //IF ARRAY
+      */
+      /*
+          //IF ARRAY
     for (int i = 0; i < opCodes.length; i++) {
 
             if (opCodes[i] =='a'){
