@@ -1,3 +1,5 @@
+package helloWorld;
+
 public class switchTest {
 
     public static void main (String args []){
