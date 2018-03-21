@@ -1,16 +1,145 @@
 package LogicTests;
 
-import javafx.collections.transformation.SortedList;
-
+import java.util.HashSet;
 import java.util.*;
 
 public class GeneralTests {
     public static void main(String args[]) {
+//given integers and an in K, find pair of distinct integers whose sum equals K
+        int[] ints = {1,2,3,4,5};
+        int k = 9;
+        for (int i = 0; i < ints.length; i++){
+            boolean isMatch = false;
+            for (int j = 0; j <ints.length;j++){
+                if (i!=j){
+                    if (k==(ints[i]+ints[j])){
+                        System.out.println("match"+ints[i]+""+ints[j]);
+                        isMatch = true;
+                        break;
+                    }
+                }
+            }
+            if (isMatch){
+                System.out.println("OK");
+                break;
+            }
+        }
 
 
     }
 
+    public static int[] doSelectionSort(int[] arr){
+        int[] arr1 = {10,34,2,56,7,67,88,42};
+        int[] arr2 = doSelectionSort(arr1);
+        for(int i:arr2){
+            System.out.print(i);
+            System.out.print(", ");}
+        for (int i = 0; i < arr.length - 1; i++)
+        {
+            int index = i;
+            for (int j = i + 1; j < arr.length; j++)
+                if (arr[j] < arr[index]) {
+                    index = j;
+                }
 
+            int smallerNumber = arr[index];
+            arr[index] = arr[i];
+            arr[i] = smallerNumber;
+        }
+        return arr;
+    }
+
+
+
+
+
+
+public void matchParanthesis (){
+        //DOESNT WORK
+    String p = "()(()())()((()))";
+    String[] chars = p.split("");
+    List<String> allchars = new ArrayList<>();
+    allchars.addAll(Arrays.asList(chars));
+    List<String> parantesis = new ArrayList<>();
+    int lc = 0;
+    int rc = 0;
+    for (int i =0; i < allchars.size(); i++){
+        if (allchars.get(i).equals("(")){
+            lc +=1;
+            parantesis.add(allchars.get(i));
+            for (int j = i; j < allchars.size(); j++){
+                if (allchars.get(j).equals(")")){
+                    parantesis.add(allchars.get(j));
+                    rc +=1;
+                    break;
+                }
+            }
+        }
+        if (parantesis.size()>1&&parantesis.get(0).equals("(") && parantesis.get(1).equals(")")){
+            parantesis.removeAll(parantesis);
+        }
+    }
+    if (parantesis.isEmpty()) System.out.println("paranthesis MATCH!"+parantesis+lc+rc);
+    else System.out.println("DOESNT MATCH"+lc+rc);
+
+}
+
+
+    public void reverseStringArray(){
+        String[] strings = {"ekrem","mahmut","ahmet","ekrem","bahar"};
+        List<String> reverseStrings = new ArrayList<>();
+        reverseStrings.addAll(Arrays.asList(strings));
+        Collections.reverse(reverseStrings);
+        System.out.println(reverseStrings);
+    }
+public void getFirstUnique(){
+    String input = "ekrermcekmcx";
+    String[] inputarray = input.split("");
+    List<String> allChars = new ArrayList<>();
+    String  firstNonRep = null;
+    allChars.addAll(Arrays.asList(inputarray));
+    System.out.println(allChars);
+    boolean isUnique = false;
+    for (int i = 0; i < allChars.size(); i++){
+        for (int j = 0; j < allChars.size(); j++){
+            System.out.println("i is: "+ i +" value is: "+allChars.get(i) +" j is: "+ j+" value is: "+allChars.get(j));
+            if (allChars.get(i).equals(allChars.get(j)) && i!=j){
+                System.out.println("dup");
+                break;
+            }
+            else if (j == allChars.size()-1){
+                System.out.println("catch");
+                isUnique = true;
+                break;}
+        }
+        if (isUnique){
+            firstNonRep = allChars.get(i);
+            break;}
+    }
+    System.out.println(firstNonRep);
+}
+public void getDuplicates(){
+    Integer[] input= new Integer[]{1,2,3,4,4,3,2,5,6,7,8};
+    List<Integer> numbers = new ArrayList<>();
+    numbers.addAll(Arrays.asList(input));
+    Set<Integer> duplicates = new HashSet<Integer>();
+    boolean isDuplicate = false;
+    for (int i =0; i < numbers.size();i++){
+        isDuplicate = false;
+        for (int j=0;j < numbers.size();j++){
+            if (numbers.get(i) == numbers.get(j) && i!=j){
+                isDuplicate = true;
+                break;
+            }
+        }
+        if(isDuplicate){
+            duplicates.add(numbers.get(i));
+        }
+    }
+    System.out.println("Duplicates: "+duplicates);
+    numbers.removeAll(duplicates);
+    System.out.println("No Duplicates: "+ numbers);
+}
     public void firstUniqueChar(){
         String word = "asdasdasdasdasdasdasdXasdXasd";
         char[] chars = word.toCharArray();
