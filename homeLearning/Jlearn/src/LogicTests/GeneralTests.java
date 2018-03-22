@@ -5,7 +5,24 @@ import java.util.*;
 
 public class GeneralTests {
     public static void main(String args[]) {
-//given integers and an in K, find pair of distinct integers whose sum equals K
+//given integers and an int K, find pair of distinct integers whose sum equals K
+        int[] ints = {1,2,3,4,5,6,7,8,9,0,11,12,13,14,15};
+        int k = 29;
+       for (int i = 0; i < ints.length; i++){
+            boolean isMatch = false;
+            for (int j = i+1; j <ints.length;j++){
+                if (k==(ints[i]+ints[j])){
+                    System.out.println("match "+ints[i]+" "+ints[j]);
+                    isMatch = true;
+                    break;
+                }
+            }
+            if (isMatch){
+                System.out.println("OK");
+                break;
+            }
+        }
+        /*
         int[] ints = {1,2,3,4,5};
         int k = 9;
         for (int i = 0; i < ints.length; i++){
@@ -13,7 +30,7 @@ public class GeneralTests {
             for (int j = 0; j <ints.length;j++){
                 if (i!=j){
                     if (k==(ints[i]+ints[j])){
-                        System.out.println("match"+ints[i]+""+ints[j]);
+                        System.out.println("match "+ints[i]+" "+ints[j]);
                         isMatch = true;
                         break;
                     }
@@ -24,7 +41,7 @@ public class GeneralTests {
                 break;
             }
         }
-
+        */
 
     }
 
