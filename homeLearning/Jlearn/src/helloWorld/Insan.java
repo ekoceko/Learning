@@ -32,7 +32,7 @@ public class Insan {
 
     }
 
-    private static void adinisoyle(){
+    public  void adinisoyle(){
         System.out.println("benim adim"+isim);
     }
 

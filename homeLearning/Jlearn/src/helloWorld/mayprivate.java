@@ -1,4 +1,4 @@
 package helloWorld;
 
-public class mayprivate {
+public class mayprivate  extends Insan {
 }
