@@ -5,7 +5,26 @@ import java.util.*;
 
 public class GeneralTests {
     public static void main(String args[]) {
-//given integers and an int K, find pair of distinct integers whose sum equals K
+        int n = 2;
+        Integer[] BaharsDailyHungerLevels = {1,2,3,3,3,4,5,6,3,2,4,1,3,4,5,6,7,8,9,3,2,11,3};
+        TreeSet<Integer> BaharsUniqueHungerLevels = new TreeSet<>(Arrays.asList(BaharsDailyHungerLevels));
+        BaharsUniqueHungerLevels.
+        ArrayList<Integer> BaharsSortedHungerLevels = new ArrayList(BaharsUniqueHungerLevels);
+        Collections.sort(BaharsSortedHungerLevels, Collections.reverseOrder());
+        System.out.println("The "+n+"th largest is: "+BaharsSortedHungerLevels.get(n-1));
+    }
+
+    public void getNthLargestwithCollection(){
+        //get n'th largest
+        int n = 2;
+        Integer[] BaharsDailyHungerLevels = {1,2,3,3,3,4,5,6,3,2,4,1,3,4,5,6,7,8,9,3,2,11,3};
+        Set<Integer> BaharsUniqueHungerLevels = new HashSet(Arrays.asList(BaharsDailyHungerLevels));
+        ArrayList<Integer> BaharsSortedHungerLevels = new ArrayList(BaharsUniqueHungerLevels);
+        Collections.sort(BaharsSortedHungerLevels, Collections.reverseOrder());
+        System.out.println("The "+n+"th largest is: "+BaharsSortedHungerLevels.get(n-1));
+    }
+    public void amazonquestioncorrect(){
+        //given integers and an int K, find pair of distinct integers whose sum equals K
         List<String> a = new ArrayList();
         a.add("3");
         a.add("ahmet");
@@ -17,7 +36,7 @@ public class GeneralTests {
         a.add("ahmet");
         for (Object c:a) {
             System.out.print(c+", ");
-            }
+        }
         System.out.println();
         System.out.println("Sorting");
         //Collections.sort(a,Collections.reverseOrder());
@@ -28,9 +47,6 @@ public class GeneralTests {
         for (Object c:a) {
             System.out.print(c+", ");
         }
-
-
-
 
     }
     public static void amazonquestion(){
