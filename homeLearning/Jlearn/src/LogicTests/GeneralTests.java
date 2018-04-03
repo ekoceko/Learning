@@ -5,23 +5,48 @@ import java.util.*;
 
 public class GeneralTests {
     public static void main(String args[]) {
-        int n = 2;
-        Integer[] BaharsDailyHungerLevels = {1,2,3,3,3,4,5,6,3,2,4,1,3,4,5,6,7,8,9,3,2,11,3};
-        TreeSet<Integer> BaharsUniqueHungerLevels = new TreeSet<>(Arrays.asList(BaharsDailyHungerLevels));
-        BaharsUniqueHungerLevels.
-        ArrayList<Integer> BaharsSortedHungerLevels = new ArrayList(BaharsUniqueHungerLevels);
-        Collections.sort(BaharsSortedHungerLevels, Collections.reverseOrder());
-        System.out.println("The "+n+"th largest is: "+BaharsSortedHungerLevels.get(n-1));
-    }
+  
+        }
 
+public void findnumofchars(){
+    String input = "aaasssdddqqqwwweasdasdqwwwqqee1233";
+    String[] inputarray = input.split("");
+    String s = "";
+    int counter = 1;
+    for (int i = 0; i < inputarray.length-1; i++) {
+        if (!inputarray[i].equals(inputarray[i+1])){
+            s += inputarray[i];
+            s += String.valueOf(counter);
+            counter = 1;
+            System.out.println(inputarray[i]);
+            System.out.println(s);
+            if(i+1==inputarray.length-1){
+                s+=inputarray[i+1];
+                s+=1;
+            }
+        }
+        else if(i+1==inputarray.length-1 && inputarray[i].equals(inputarray[i+1])){
+            s+=inputarray[i];
+            s += String.valueOf(counter+1);
+        }
+        else counter++;
+    }
+    System.out.println(s);
+}
+    public void replace2(){
+        String input = "asdgasdqweasd123fasd1872edmasd8asd8";
+        String newinput = input.replaceAll("[0-9]","");
+        System.out.println(newinput);
+
+    }
     public void getNthLargestwithCollection(){
         //get n'th largest
         int n = 2;
-        Integer[] BaharsDailyHungerLevels = {1,2,3,3,3,4,5,6,3,2,4,1,3,4,5,6,7,8,9,3,2,11,3};
-        Set<Integer> BaharsUniqueHungerLevels = new HashSet(Arrays.asList(BaharsDailyHungerLevels));
-        ArrayList<Integer> BaharsSortedHungerLevels = new ArrayList(BaharsUniqueHungerLevels);
-        Collections.sort(BaharsSortedHungerLevels, Collections.reverseOrder());
-        System.out.println("The "+n+"th largest is: "+BaharsSortedHungerLevels.get(n-1));
+        Integer[] input = {1,2,3,3,3,4,5,6,3,2,4,1,3,4,5,6,7,8,9,3,2,11,3};
+        TreeSet<Integer> uniqueinput = new TreeSet<>(Arrays.asList(input));
+        ArrayList<Integer> sorteduniqueinput = new ArrayList(uniqueinput);
+        Collections.sort(sorteduniqueinput, Collections.reverseOrder());
+        System.out.println("The "+n+"th largest is: "+sorteduniqueinput.get(n-1));
     }
     public void amazonquestioncorrect(){
         //given integers and an int K, find pair of distinct integers whose sum equals K
