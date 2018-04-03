@@ -10,6 +10,10 @@ public class Main {
         ekrem.setIsim("Ekrem");
         ekrem.age = 29;
         ekrem.selamver();
+        mayprivate mahmut = new mayprivate();
+        mahmut.setIsim("Mahmut");
+        mahmut.selamver();
+        System.out.println(mahmut.getIsim());
 
 
 

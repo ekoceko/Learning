@@ -6,9 +6,37 @@ import java.util.*;
 public class GeneralTests {
     public static void main(String args[]) {
 //given integers and an int K, find pair of distinct integers whose sum equals K
+        List<String> a = new ArrayList();
+        a.add("3");
+        a.add("ahmet");
+        Integer b = 1;
+
+
+        a.add("2");
+        a.add(b.toString());
+        a.add("ahmet");
+        for (Object c:a) {
+            System.out.print(c+", ");
+            }
+        System.out.println();
+        System.out.println("Sorting");
+        //Collections.sort(a,Collections.reverseOrder());
+
+        Collections.sort(a);
+        Collections.reverse(a);
+        System.out.println(a);
+        for (Object c:a) {
+            System.out.print(c+", ");
+        }
+
+
+
+
+    }
+    public static void amazonquestion(){
         int[] ints = {1,2,3,4,5,6,7,8,9,0,11,12,13,14,15};
         int k = 29;
-       for (int i = 0; i < ints.length; i++){
+        for (int i = 0; i < ints.length; i++){
             boolean isMatch = false;
             for (int j = i+1; j <ints.length;j++){
                 if (k==(ints[i]+ints[j])){
@@ -22,29 +50,8 @@ public class GeneralTests {
                 break;
             }
         }
-        /*
-        int[] ints = {1,2,3,4,5};
-        int k = 9;
-        for (int i = 0; i < ints.length; i++){
-            boolean isMatch = false;
-            for (int j = 0; j <ints.length;j++){
-                if (i!=j){
-                    if (k==(ints[i]+ints[j])){
-                        System.out.println("match "+ints[i]+" "+ints[j]);
-                        isMatch = true;
-                        break;
-                    }
-                }
-            }
-            if (isMatch){
-                System.out.println("OK");
-                break;
-            }
-        }
-        */
 
     }
-
     public static int[] doSelectionSort(int[] arr){
         int[] arr1 = {10,34,2,56,7,67,88,42};
         int[] arr2 = doSelectionSort(arr1);
@@ -104,7 +111,9 @@ public void matchParanthesis (){
 
     public void reverseStringArray(){
         String[] strings = {"ekrem","mahmut","ahmet","ekrem","bahar"};
+
         List<String> reverseStrings = new ArrayList<>();
+
         reverseStrings.addAll(Arrays.asList(strings));
         Collections.reverse(reverseStrings);
         System.out.println(reverseStrings);
