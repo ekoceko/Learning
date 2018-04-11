@@ -1,7 +1,7 @@
 package com.amazon.TestCases.BaseTests;
 
 import com.amazon.AutomationFramework.Selenium.Driver;
-import com.amazon.AutomationFramework.Pages.Login_Page;
+import com.amazon.AutomationFramework.Pages.Base.Login_Page;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 

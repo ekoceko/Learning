@@ -5,9 +5,34 @@ import java.util.*;
 
 public class GeneralTests {
     public static void main(String args[]) {
-  
-        }
+        String[] Sinput = {"ekrem", "bahar","cek", "savcun"};
+        String[] Sinput2 = {"bahar","cek", "savcun"};
 
+    }
+    public static HashSet<String> returnCommon(List<String> list1, List<String> list2){
+        HashSet<String> input1 = new HashSet(Arrays.asList(list1));
+        input1.retainAll(Arrays.asList(list2));
+        System.out.println(input1);
+        return input1;
+    }
+
+    public void moveDuplicates(){
+        Integer[] ints = {1,1,2,3,4,5,5,1,2,3,1,2,3,4};
+        ArrayList intlistall = new ArrayList(Arrays.asList(ints));
+        ArrayList duplicates = new ArrayList();
+        for (int i =0; i<intlistall.size();i++){
+            for (int j =i+1;j < ints.length;j++){
+                if (intlistall.get(i)==intlistall.get(j)){
+                    duplicates.add(intlistall.get(i));
+                    break;
+                }
+            }
+        }
+        for (int k =0;k< duplicates.size();k++){
+            intlistall.remove(duplicates.get(k));
+        }
+        System.out.println(intlistall);
+    }
 public void findnumofchars(){
     String input = "aaasssdddqqqwwweasdasdqwwwqqee1233";
     String[] inputarray = input.split("");

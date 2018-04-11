@@ -1,6 +1,6 @@
 package com.amazon.TestCases.SmokeTests;
 
-import com.amazon.AutomationFramework.Pages.Main_Page;
+import com.amazon.AutomationFramework.Pages.Base.Main_Page;
 import com.amazon.TestCases.BaseTests.AmazonBase_Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;

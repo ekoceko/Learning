@@ -1,4 +1,4 @@
-package com.amazon.AutomationFramework.Pages;
+package com.amazon.AutomationFramework.Pages.Base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;

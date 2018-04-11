@@ -2,55 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b4ca37f-3e3c-43e3-8d85-17676df462a4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../NewFramework/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Navigation/AccountsAndLists_Navi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Navigation/Departments_Navi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Navigation/TopMenuSelector_Navi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/ListTests/AddIdeaList_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/ListTests/AddListForSignificantOth_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/ListTests/AddShoppingList_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/ListTests/AddWishList_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/SmokeTests/Login_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Pages/Departments/MusicalInstruments_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/SmokeTests/Access_Department_MusicalInstruments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jlearn/src/LogicTests/AmazonQA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NewFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/framework/AccountsAndLists_GUI$CreateAList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/framework/AccountsAndLists_GUI$YourLists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/framework/AccountsAndLists_GUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/framework/CreateAList$ForSomeoneDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/framework/CreateAList$ForYouDetails$IdeaForYou.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/framework/CreateAList$ForYouDetails$ShoppingForYou.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/framework/CreateAList$ForYouDetails$WishForYou.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/framework/CreateAList$ForYouDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/framework/CreateAList$sPrivacy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/framework/CreateAList$sRelationship.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/framework/CreateAList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/framework/Driver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/framework/ListsPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/framework/LoginPage$LoginCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/framework/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/framework/MainPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/framework/PageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/tests/AddIdeaList_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/tests/AddListForSignificantOth_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/tests/AddShoppingList_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/tests/AddWishList_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/tests/AmazonBase_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/tests/CheckExistingList_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/eko/tests/Login_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/src/eko/framework/AccountsAndLists_GUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/src/eko/framework/CreateAList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Pages/CreateAList_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/src/eko/framework/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Selenium/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/src/eko/framework/ListsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Pages/Lists_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/src/eko/framework/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Pages/Login_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/src/eko/framework/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Pages/Main_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/src/eko/framework/PageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Pages/PageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/src/eko/tests/AddIdeaList_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/src/eko/tests/AddListForSignificantOth_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/src/eko/tests/AddShoppingList_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/src/eko/tests/AddWishList_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/src/eko/tests/AmazonBase_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/BaseTests/AmazonBase_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/src/eko/tests/CheckExistingList_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/ListTests/CheckExistingList_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewFramework/src/eko/tests/Login_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Navigation/AccountsAndLists_Navi$CreateAList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Navigation/AccountsAndLists_Navi$YourLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Navigation/AccountsAndLists_Navi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Navigation/Departments_Navi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Navigation/TopMenuSelector_Navi$AccountsAndLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Navigation/TopMenuSelector_Navi$Departments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Navigation/TopMenuSelector_Navi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$ForSomeoneDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$ForSomeoneDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$ForYouDetails$IdeaForYou.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$ForYouDetails$IdeaForYou.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$ForYouDetails$ShoppingForYou.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$ForYouDetails$ShoppingForYou.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$ForYouDetails$WishForYou.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$ForYouDetails$WishForYou.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$ForYouDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$ForYouDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$sPrivacy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$sPrivacy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$sRelationship.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$sRelationship.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/AutomationFramework/Pages/Lists_Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/TestCases/ListTests/AddIdeaList_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/TestCases/ListTests/AddListForSignificantOth_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/out/production/NewFramework/com/amazon/TestCases/ListTests/AddShoppingList_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Navigation/AccountsAndLists_Navi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Navigation/Departments_Navi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Navigation/TopMenuSelector_Navi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Navigation/TopMenuSelector_Navi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Pages/CreateAList_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Pages/AccountAndLists/CreateAList_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Pages/Lists_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Pages/AccountAndLists/Lists_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Pages/Login_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Pages/Base/Login_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Pages/Main_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Pages/Base/Main_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Pages/PageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/AutomationFramework/Pages/Base/PageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/BaseTests/AmazonBase_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/BaseTests/AmazonBase_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/ListTests/AddIdeaList_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/ListTests/AddIdeaList_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/ListTests/AddListForSignificantOth_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/ListTests/AddListForSignificantOth_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/ListTests/AddShoppingList_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/ListTests/AddShoppingList_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/ListTests/AddWishList_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/ListTests/AddWishList_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/ListTests/CheckExistingList_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/ListTests/CheckExistingList_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/SmokeTests/Login_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NewFramework/src/com/amazon/TestCases/SmokeTests/Login_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jlearn/src/LogicTests/GeneralTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Jlearn/src/LogicTests/GeneralTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Jlearn/LogicTests/GeneralTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jlearn/LogicTests/GeneralTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,15 +59,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
               <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="arrays.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Jlearn/src/helloWorld/arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -150,11 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeneralTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GeneralTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Jlearn/src/LogicTests/GeneralTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            <state relative-caret-position="240">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,11 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortedSet.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/SortedSet.java">
+      <file leaf-file-name="AmazonQA.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Jlearn/src/LogicTests/AmazonQA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1344">
-              <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
+            <state relative-caret-position="126">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -205,14 +188,15 @@
         <option value="$PROJECT_DIR$/Jlearn/src/helloWorld/MyInterface.java" />
         <option value="$PROJECT_DIR$/Jlearn/src/helloWorld/Implementor.java" />
         <option value="$PROJECT_DIR$/Jlearn/src/LogicTests/GeneralTests.java" />
+        <option value="$PROJECT_DIR$/Jlearn/src/LogicTests/AmazonQA.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
-    <option name="y" value="-5" />
+    <option name="x" value="543" />
+    <option name="y" value="132" />
     <option name="width" value="1375" />
-    <option name="height" value="733" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -222,8 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,12 +234,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -271,14 +255,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GeneralTests">
+  <component name="RunManager" selected="Application.AmazonQA">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
     </configuration>
-    <configuration name="GeneralTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LogicTests.GeneralTests" />
+    <configuration name="AmazonQA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LogicTests.AmazonQA" />
       <module name="Jlearn" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -288,13 +272,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="HW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="helloWorld.HW" />
+    <configuration name="GeneralTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LogicTests.GeneralTests" />
       <module name="Jlearn" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="helloWorld.*" />
+          <option name="PATTERN" value="LogicTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,19 +359,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.HW" />
       <item itemvalue="Application.arrays" />
       <item itemvalue="Application.switchTest" />
       <item itemvalue="Application.GeneralTests" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.AmazonQA" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AmazonQA" />
         <item itemvalue="Application.GeneralTests" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.switchTest" />
         <item itemvalue="Application.arrays" />
-        <item itemvalue="Application.HW" />
       </list>
     </recent_temporary>
   </component>
@@ -414,22 +398,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4856771" weight="0.3287858" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.48389262" weight="0.32816902" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5364583" side_tool="true" visible="true" weight="0.22100955" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5402685" side_tool="true" visible="true" weight="0.27605635" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46354166" weight="0.22100955" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.45973155" weight="0.27605635" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49375" weight="0.32968238" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2890625" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3147651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -491,13 +475,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Commit test from intellij home pc" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Jlearn/src/helloWorld/MyInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Jlearn/src/helloWorld/Implementor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -890,11 +867,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jlearn/src/LogicTests/GeneralTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        <state relative-caret-position="240">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jlearn/src/LogicTests/AmazonQA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>

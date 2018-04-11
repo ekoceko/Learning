@@ -1,8 +1,7 @@
-package com.amazon.AutomationFramework.Pages;
+package com.amazon.AutomationFramework.Pages.AccountAndLists;
 
 import com.amazon.AutomationFramework.Navigation.TopMenuSelector_Navi;
 import com.amazon.AutomationFramework.Selenium.Driver;
-import com.amazon.AutomationFramework.Navigation.AccountsAndLists_Navi;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
