@@ -2,11 +2,8 @@ package eko.framework;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.util.concurrent.TimeUnit;
 
 
 public class LoginPage {
@@ -39,21 +36,28 @@ public class LoginPage {
         public void Login() {
             try {
                 if (Driver.Instance.findElement(By.id("ap_password")).isDisplayed()){
-                    RecurringLogin();
+                    EnterPassword();
                 }
             }catch (NoSuchElementException ne){
                 ne.getMessage();
             }
-            FirstLogin();
+            EnterUsername();
         }
-        private void  FirstLogin(){
+        private void  EnterUsername(){
             Driver.Instance.findElement(By.id("ap_email")).sendKeys(this.userName);
             Driver.Instance.findElement(By.id("continue")).click();
-            RecurringLogin();
+            EnterPassword();
         }
-        private void RecurringLogin(){
+        private void EnterPassword(){
             Driver.Instance.findElement(By.id("ap_password")).sendKeys(this.password);
             Driver.Instance.findElement(By.id("signInSubmit")).click();
+            try {
+                if (Driver.Instance.findElement(By.id("continue")).isDisplayed()){
+                    throw new Error("Browser verification is needed! Please handle this manually for the first login");
+                }
+            }catch (NoSuchElementException ne){
+                ne.getMessage();
+            }
         }
     }
 }
