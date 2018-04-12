@@ -8,7 +8,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class Login_Page {
+<<<<<<< HEAD:NewFramework/src/com/amazon/AutomationFramework/Pages/Base/Login_Page.java
 
+=======
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6:NewFramework/src/com/amazon/AutomationFramework/Pages/Base/Login_Page.java
     public static void GoTo() {
         Driver.Instance.navigate().to(Driver.BaseAddress+"/gp/sign-in.html"); //https://www.amazon.com/
         WebDriverWait wait = new WebDriverWait(Driver.Instance, 5);

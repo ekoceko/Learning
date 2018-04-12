@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="dcfb8800-2a83-4430-af2a-5a1ff3b1c811" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/AccountsAndLists.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/Departments.java" afterDir="false" />
@@ -20,6 +21,50 @@
       <change beforePath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Base/Login_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Base/Login_Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Departments/MusicalInstruments_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Departments/MusicalInstruments_Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eko/tests/Login_Test.java" beforeDir="false" />
+=======
+    <list default="true" id="3fea5488-95d0-402a-bfa2-f47d7b752fbc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Departments/MusicalInstruments_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/amazon/TestCases/SmokeTests/Access_Department_MusicalInstruments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homeLearning/Jlearn/src/LogicTests/AmazonQA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Navigation/AccountsAndLists_Navi$CreateAList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Navigation/AccountsAndLists_Navi$YourLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Navigation/AccountsAndLists_Navi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Navigation/Departments_Navi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Navigation/TopMenuSelector_Navi$AccountsAndLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Navigation/TopMenuSelector_Navi$Departments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Navigation/TopMenuSelector_Navi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$ForSomeoneDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$ForSomeoneDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$ForYouDetails$IdeaForYou.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$ForYouDetails$IdeaForYou.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$ForYouDetails$ShoppingForYou.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$ForYouDetails$ShoppingForYou.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$ForYouDetails$WishForYou.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$ForYouDetails$WishForYou.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$ForYouDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$ForYouDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$sPrivacy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$sPrivacy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$sRelationship.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page$sRelationship.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Pages/CreateAList_Page.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/AutomationFramework/Pages/Lists_Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/TestCases/ListTests/AddIdeaList_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/TestCases/ListTests/AddListForSignificantOth_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewFramework/com/amazon/TestCases/ListTests/AddShoppingList_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/AccountsAndLists_Navi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/Departments_Navi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/TopMenuSelector_Navi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/TopMenuSelector_Navi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/CreateAList_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/AccountAndLists/CreateAList_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Lists_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/AccountAndLists/Lists_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Login_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Base/Login_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Main_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Base/Main_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/PageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Base/PageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/TestCases/BaseTests/AmazonBase_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/TestCases/BaseTests/AmazonBase_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/AddIdeaList_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/AddIdeaList_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/AddListForSignificantOth_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/AddListForSignificantOth_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/AddShoppingList_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/AddShoppingList_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/AddWishList_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/AddWishList_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/CheckExistingList_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/CheckExistingList_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amazon/TestCases/SmokeTests/Login_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amazon/TestCases/SmokeTests/Login_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homeLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homeLearning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homeLearning/Jlearn/src/LogicTests/GeneralTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../homeLearning/Jlearn/src/LogicTests/GeneralTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homeLearning/out/production/Jlearn/LogicTests/GeneralTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../homeLearning/out/production/Jlearn/LogicTests/GeneralTests.class" afterDir="false" />
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,6 +79,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="Main_Page.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Base/Main_Page.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,10 +142,21 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+=======
+      <file leaf-file-name="TopMenuSelector_Navi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/TopMenuSelector_Navi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="PageObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Base/PageObject.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -114,15 +171,38 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+=======
+      <file leaf-file-name="Lists_Page.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/AccountAndLists/Lists_Page.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="CreateAList_Page.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/AccountAndLists/CreateAList_Page.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
               <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+=======
+      <file leaf-file-name="MusicalInstruments_Page.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Departments/MusicalInstruments_Page.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="83" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+              </folding>
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
             </state>
           </provider>
         </entry>
@@ -138,9 +218,13 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
       <find>menuName=</find>
       <find>menuName=s</find>
       <find>createAList2</find>
+=======
+      <find>comparing</find>
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,6 +233,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Base/Login_Page.java" />
         <option value="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/AccountsAndLists.java" />
         <option value="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/AccountAndLists/CreateAList_Page.java" />
@@ -156,14 +241,48 @@
         <option value="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Departments/MusicalInstruments_Page.java" />
         <option value="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/Departments.java" />
         <option value="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/TopMenuSelector_Navi.java" />
+=======
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/eko/framework/Driver.java" />
+        <option value="$PROJECT_DIR$/src/eko/framework/ListsPage.java" />
+        <option value="$PROJECT_DIR$/src/eko/framework/AccountsAndLists_GUI.java" />
+        <option value="$PROJECT_DIR$/src/eko/framework/MenuSelector.java" />
+        <option value="$PROJECT_DIR$/src/com/framework/MenuSelector.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/framework/MenuSelector.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/automationframework/MenuSelector.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/AutomationFramework/MenuSelector.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/tests/AddIdeaList_Test.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/TestCases/SmokeTests/Login_Test.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/CheckExistingList_Test.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Selenium/Driver.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/MenuSelector_Navi.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/CreateAList_Page.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/Departments_Navi.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/AccountsAndLists_Navi.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/TestCases/QA.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/TestCases/SmokeTests/Access_Department_MovMusicNGames.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/TopMenuSelector_Navi.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/AccountAndLists/Lists_Page.java" />
+        <option value="$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Departments/MusicalInstruments_Page.java" />
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="-11" />
     <option name="y" value="-11" />
     <option name="width" value="1943" />
     <option name="height" value="1043" />
+=======
+    <option name="x" value="-5" />
+    <option name="y" value="-5" />
+    <option name="width" value="1375" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -172,6 +291,10 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,6 +319,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="amazon" type="462c0819:PsiDirectoryNode" />
               <item name="AutomationFramework" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
             </path>
             <path>
               <item name="NewFramework" type="b2602c69:ProjectViewProjectNode" />
@@ -210,6 +335,52 @@
               <item name="NewFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="AutomationFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="AutomationFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="Selenium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
+              <item name="BaseTests" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
+            </path>
+            <path>
+              <item name="NewFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="amazon" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="AutomationFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
+              <item name="ListTests" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
+            </path>
+            <path>
+              <item name="NewFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="amazon" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="AutomationFramework" type="462c0819:PsiDirectoryNode" />
               <item name="Pages" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -276,6 +447,8 @@
               <item name="NewFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="amazon" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
               <item name="TestCases" type="462c0819:PsiDirectoryNode" />
               <item name="SmokeTests" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -283,9 +456,19 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
     </panes>
   </component>
+=======
+    </panes>
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="eko.framework" />
+    </key>
+  </component>
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -298,7 +481,34 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="TestNG.AddShoppingList_Test (1)">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+=======
+  <component name="RunManager" selected="Application.QA">
+    <configuration name="QA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amazon.TestCases.QA" />
+      <module name="NewFramework" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amazon.TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -318,6 +528,33 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="AddShoppingList_Test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NewFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amazon.TestCases.ListTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="eko.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.amazon.TestCases.ListTests.AddShoppingList_Test" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="AddShoppingList_Test (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NewFramework" />
       <extension name="coverage">
@@ -330,7 +567,11 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.amazon.TestCases.ListTests" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="com.amazon.TestCases.ListTests.AddShoppingList_Test" />
+=======
+      <option name="MAIN_CLASS_NAME" value="com.amazon.TestCases.ListTests.CheckExistingList_Test" />
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -347,6 +588,7 @@
       <properties />
       <listeners />
     </configuration>
+<<<<<<< HEAD
     <configuration name="AddShoppingList_Test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NewFramework" />
       <extension name="coverage">
@@ -360,6 +602,14 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="eko.tests" />
       <option name="MAIN_CLASS_NAME" value="eko.tests.AddShoppingList_Test" />
+=======
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -376,6 +626,7 @@
       <properties />
       <listeners />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -405,6 +656,17 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.AddShoppingList_Test (1)" />
+=======
+    <list>
+      <item itemvalue="TestNG.AddShoppingList_Test" />
+      <item itemvalue="TestNG.CheckExistingList_Test" />
+      <item itemvalue="Application.QA" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QA" />
+        <item itemvalue="TestNG.CheckExistingList_Test" />
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
         <item itemvalue="TestNG.AddShoppingList_Test" />
       </list>
     </recent_temporary>
@@ -414,15 +676,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="dcfb8800-2a83-4430-af2a-5a1ff3b1c811" name="Default" comment="" />
       <created>1523464664226</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523464664226</updated>
+=======
+      <changelist id="3fea5488-95d0-402a-bfa2-f47d7b752fbc" name="Default" comment="" />
+      <created>1522775187083</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522775187083</updated>
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="AddShoppingList_Test_(1) - 2018.04.12 at 11h 37m 48s.xml">
       <configuration name="AddShoppingList_Test (1)" configurationId="TestNG" />
     </history-entry>
@@ -471,10 +742,49 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24277908" />
+=======
+    <history-entry file="AddShoppingList_Test - 2018.04.03 at 20h 32m 38s.xml">
+      <configuration name="AddShoppingList_Test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckExistingList_Test - 2018.04.03 at 21h 02m 54s.xml">
+      <configuration name="CheckExistingList_Test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckExistingList_Test - 2018.04.03 at 21h 03m 56s.xml">
+      <configuration name="CheckExistingList_Test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckExistingList_Test - 2018.04.03 at 21h 04m 41s.xml">
+      <configuration name="CheckExistingList_Test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckExistingList_Test - 2018.04.03 at 22h 35m 03s.xml">
+      <configuration name="CheckExistingList_Test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckExistingList_Test - 2018.04.03 at 22h 36m 47s.xml">
+      <configuration name="CheckExistingList_Test" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.33943662" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3287858" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27315435" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.319236" />
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+<<<<<<< HEAD
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -483,12 +793,23 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+=======
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32816902" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Base/Main_Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -549,12 +870,246 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/QA.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Selenium/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/Departments_Navi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/AccountsAndLists_Navi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding>
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Base/Main_Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Base/Login_Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/TopMenuSelector_Navi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/AccountAndLists/CreateAList_Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/CheckExistingList_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/BaseTests/AmazonBase_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#531#532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/AccountAndLists/Lists_Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Selenium/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/Departments_Navi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/TopMenuSelector_Navi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/AccountAndLists/CreateAList_Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/AddShoppingList_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/AddWishList_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/CheckExistingList_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/AccountAndLists/Lists_Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/BaseTests/AmazonBase_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#531#532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/AccountsAndLists_Navi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Selenium/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/Departments_Navi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/AccountsAndLists_Navi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/TopMenuSelector_Navi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/AddShoppingList_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/AddWishList_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/CheckExistingList_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/AccountAndLists/Lists_Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Selenium/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -587,10 +1142,40 @@
     <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/AddIdeaList_Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/BaseTests/AmazonBase_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#531#532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/AccountAndLists/CreateAList_Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="272" column="3" selection-start-line="272" selection-start-column="3" selection-end-line="272" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/SmokeTests/Login_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/SmokeTests/Access_Department_MusicalInstruments.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -719,11 +1304,155 @@
           <caret line="3244" column="37" selection-start-line="3244" selection-start-column="37" selection-end-line="3244" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/BaseTests/AmazonBase_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#531#532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Selenium/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/QA.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/SmokeTests/Access_Department_MusicalInstruments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/CheckExistingList_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/AddWishList_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/AddShoppingList_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Base/Login_Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Base/Main_Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Base/PageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/AddIdeaList_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/TestCases/ListTests/AddListForSignificantOth_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/AccountAndLists/CreateAList_Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/AccountsAndLists_Navi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/AccountAndLists/Lists_Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/Departments_Navi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Navigation/TopMenuSelector_Navi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amazon/AutomationFramework/Pages/Departments/MusicalInstruments_Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="83" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
           </folding>
         </state>
       </provider>
     </entry>
   </component>
+<<<<<<< HEAD
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
@@ -811,4 +1540,6 @@
       </state>
     </states>
   </component>
+=======
+>>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6
 </project>
