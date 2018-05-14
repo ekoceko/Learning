@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class AddListForSignificantOth_Test extends AmazonBase_Test {
     @Test
-    public void CanAddWishList(){
+    public void CanAddListForOther(){
         CreateAList_Page.GoTo();
         CreateAList_Page.IsForSomeone().WithNameAndRelationship("Bahar", "Cek", CreateAList_Page.sRelationship.Significant_Other).PrivacyAs(CreateAList_Page.sPrivacy.Private).Create();
         Assert.assertTrue(Lists_Page.IsAtCorrect(),"Lists does not match!");

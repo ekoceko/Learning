@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class AddIdeaList_Test {
 
     @Test
-    public void CanAddWishList(){
+    public void CanAddIdeaList(){
         CreateAList_Page.GoTo();
         CreateAList_Page.IsForYou().AnIdeaList().WithNameAndDesc("MyIdea", "Excellent Ideas").Create();
         Assert.assertTrue(Lists_Page.IsAtCorrect(),"Lists does not match!");

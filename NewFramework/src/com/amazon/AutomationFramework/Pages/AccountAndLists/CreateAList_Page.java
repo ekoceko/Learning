@@ -1,10 +1,8 @@
 package com.amazon.AutomationFramework.Pages.AccountAndLists;
 
-<<<<<<< HEAD:NewFramework/src/com/amazon/AutomationFramework/Pages/AccountAndLists/CreateAList_Page.java
+
 import com.amazon.AutomationFramework.Navigation.AccountsAndLists;
-=======
 import com.amazon.AutomationFramework.Navigation.TopMenuSelector_Navi;
->>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6:NewFramework/src/com/amazon/AutomationFramework/Pages/AccountAndLists/CreateAList_Page.java
 import com.amazon.AutomationFramework.Selenium.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -19,20 +17,14 @@ public class CreateAList_Page {
     private static By  CreateListBy = By.xpath("//span[@class='a-declarative']//span[@class='a-button a-button-primary']//span[@class='a-button-inner']//input[@class='a-button-input a-declarative']");
 
     public static void GoTo() {
-<<<<<<< HEAD:NewFramework/src/com/amazon/AutomationFramework/Pages/AccountAndLists/CreateAList_Page.java
         AccountsAndLists.CreateAList.Select();
-=======
-        TopMenuSelector_Navi.AccountsAndLists.CreateAList();
->>>>>>> 8c95de263ead0721f9c091b417aaa952684241b6:NewFramework/src/com/amazon/AutomationFramework/Pages/AccountAndLists/CreateAList_Page.java
+        //TopMenuSelector_Navi.AccountsAndLists.CreateAList();
     }
-
 
     public static ForYouDetails IsForYou() {
         Driver.Wait(0.5);
-
         Driver.Instance.findElement(By.xpath("//span[@id='WLNEW_list_for']//span[@class='a-button-inner']//span[@class='a-button-text a-declarative']")).click();
         Driver.Wait(0.5);
-
         Driver.Instance.findElement(By.xpath("//a[@id='create_for_0']")).click();
         return new ForYouDetails();
     }
