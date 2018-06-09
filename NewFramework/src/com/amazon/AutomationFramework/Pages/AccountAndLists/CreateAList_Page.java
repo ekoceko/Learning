@@ -11,8 +11,8 @@ import org.openqa.selenium.support.ui.Select;
 
 
 public class CreateAList_Page {
-    public  enum sPrivacy {Private, Public};
-    public  enum sRelationship {Friend, Mom, Dad, Child, Sibling, Relative, Significant_Other, Other};
+    public  enum sPrivacy {Private, Public}
+    public  enum sRelationship {Friend, Mom, Dad, Child, Sibling, Relative, Significant_Other, Other}
     public static String ListName;
     private static By  CreateListBy = By.xpath("//span[@class='a-declarative']//span[@class='a-button a-button-primary']//span[@class='a-button-inner']//input[@class='a-button-input a-declarative']");
 

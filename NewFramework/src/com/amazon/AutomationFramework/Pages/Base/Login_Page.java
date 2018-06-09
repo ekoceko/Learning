@@ -47,7 +47,7 @@ public class Login_Page {
         }
         private void  EnterUsername(){
             Driver.Instance.findElement(By.id("ap_email")).sendKeys(this.userName);
-            //Driver.Instance.findElement(By.id("continue")).click();
+            Driver.Instance.findElement(By.id("continue")).click();
             EnterPassword();
         }
         private void EnterPassword(){
