@@ -9,8 +9,8 @@ public class CheckExistingList_Test extends AmazonBase_Test {
 
     @Test
     public void CheckExistingList(){
-       Assert.assertTrue(
-               Lists_Page.DoesListExist("ShoppingListX3"
-               ),"List does not exist!");
+        Lists_Page.GoTo();
+        Assert.assertTrue(
+                Lists_Page.DoesListExist("ShoppingListX3"),"List does not exist!");
     }
 }

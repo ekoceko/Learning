@@ -28,4 +28,18 @@ public class Driver {
             e.printStackTrace();
         }
     }
+/*
+    public static void NoWait(Action action){
+        TurnOffWait();
+        action.perform();
+        TurnOnWait();
+    }
+
+    private static void TurnOffWait() {
+        Instance.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+    }
+    private static void TurnOnWait() {
+        Instance.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+    }
+    */
 }

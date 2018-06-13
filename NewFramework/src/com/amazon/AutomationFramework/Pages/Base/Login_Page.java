@@ -3,16 +3,14 @@ package com.amazon.AutomationFramework.Pages.Base;
 import com.amazon.AutomationFramework.Selenium.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class Login_Page {
 
     public static void GoTo() {
         Driver.Instance.navigate().to(Driver.BaseAddress+"/gp/sign-in.html"); //https://www.amazon.com/
-        WebDriverWait wait = new WebDriverWait(Driver.Instance, 5);
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("ap_email")));
+
+
     }
 
     public static LoginCommand LoginAs(String userName) {
