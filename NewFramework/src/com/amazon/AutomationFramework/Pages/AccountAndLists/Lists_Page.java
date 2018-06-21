@@ -2,17 +2,33 @@ package com.amazon.AutomationFramework.Pages.AccountAndLists;
 
 import com.amazon.AutomationFramework.Navigation.AccountsAndLists;
 import com.amazon.AutomationFramework.Selenium.Driver;
+import com.amazon.AutomationFramework.WorkFlows.ListCreator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 public class Lists_Page {
     private static int lastCount;
     private static int deletedListCount;
+
+    public static boolean IsAt() {
+        WebElement yourListTitle =null;
+        try{yourListTitle = Driver.Instance.findElement(By.xpath("//div[@role='heading']"));}
+        catch (NoSuchElementException e){
+            System.out.println("not at the page, need to redirect...");
+        }
+        if(yourListTitle!=null && yourListTitle.getText().equals("Your Lists")){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
 
     public static int getDeletedListCount() {
         return deletedListCount;
@@ -27,12 +43,16 @@ public class Lists_Page {
         AccountsAndLists.YourLists.Select();
     }
     public static boolean IsAtCorrect(){
-        WebElement CurrentList = Driver.Instance.findElement(By.xpath("//span[@id='profile-list-name']"));
+        //WebElement CurrentList = Driver.Instance.findElement(By.xpath("//span[@id='profile-list-name']"));
         Driver.Wait(1.5);
         String tempListName = Driver.Instance.findElement(By.xpath("//span[@id='profile-list-name']")).getText();
-        return tempListName.equals(CreateAList_Page.getListName());
+        return tempListName.equals(ListCreator.getTestListName());
     }
 public static void StoreListCount(){
+        if(!IsAt()){
+            System.out.println("need to go to Lists page");
+            GoTo();
+        }
         lastCount = GetListCount();
 }
 public static int PreviousListCount(){
@@ -44,20 +64,26 @@ public static int CurrentListCount(){
 private static int GetListCount(){
         return GetAllLists().size();
 }
-    private static WebElement FindInListbyListName(String listName){
-        String name = null;
+    public static WebElement FindInListbyListName(String listName){
+        String name;
         for (WebElement element:GetAllLists()) {
             name = element.getText();
+            System.out.println(" "+ listName +" equals "+ name );
+
             if (listName.equals(name)){
+                System.out.println("Found match "+ listName +" equals "+ name );
                 return element;
             }
         }
+        System.out.println("returning null");
         return null;
     }
     public static boolean DoesListExist(String listName){
         if (FindInListbyListName(listName)!=null){
+            System.out.println("List Exists");
             return true;
         }
+        System.out.println("List does not exist");
         return false;
     }
 
@@ -68,15 +94,14 @@ private static int GetListCount(){
             setDeletedListCount(getDeletedListCount()+1);
             }
         }
-        else throw new Error("List does not exists");
+        else {
+            System.out.println("List does not exist +++ "+delListName );
+            throw new Error(delListName+" does not exist");
+        }
     }
     private static List<WebElement> GetAllLists(){
-
         List<WebElement> ListNames;
-        Driver.Instance.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
         ListNames= Driver.Instance.findElements(By.xpath("//div[@id='your-lists-nav']/nav/ul[1]//span/a/div/div/div[1]/div[1]"));
-        //Driver.NoWait(() -> { System.out.println("Do nothing!"); });
-        Driver.Instance.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
         return ListNames;
 
     }
@@ -86,8 +111,8 @@ private static int GetListCount(){
         }
 
     }
-    private static void Deleter(WebElement deleteNow){
-        deleteNow.click();
+    public static void ManageList(WebElement modifyList){
+        modifyList.click();
         WebElement tripleDot = Driver.Instance.findElement(By.xpath("//a[@id='overflow-menu-popover-trigger']"));
         Actions actions = new Actions(Driver.Instance);
         actions.moveToElement(tripleDot).perform();
@@ -95,6 +120,10 @@ private static int GetListCount(){
         //tripleDot.click();
         WebElement editYourList = Driver.Instance.findElement(By.xpath("//a[@id='editYourList']"));
         editYourList.click();
+    }
+    private static void Deleter(WebElement deleteNow){
+        ManageList(deleteNow);
+
         WebElement deleteButton = Driver.Instance.findElement(By.xpath("//button[text() = 'Delete list']"));
         deleteButton.click();
         Driver.Wait(1);

@@ -33,6 +33,85 @@ public class GeneralTests {
         }
         System.out.println(intlistall);
     }
+
+    public static void DuplicateChars() {
+        String str1 = "STRINGG";
+        String str2 = "STRONGG";
+
+        char[] charStr1= str1.toCharArray();
+        char[] charStr2 = str2.toCharArray();
+        HashSet<Character> dup = new LinkedHashSet<>();
+
+        for (int i = 0; i < charStr1.length;i++){
+            for (int j = 0; j < charStr2.length; j++){
+                if (charStr1[i]==charStr2[j]){
+                    dup.add(charStr1[i]);
+                    break;
+                }
+            }
+        }
+        System.out.println(dup);
+
+    }
+    public static void CheckIfAnagram(){
+        String word1= "aanagram";
+        String word2= "gramanaa";
+        char[] arr1 = word1.toCharArray();
+        char[] arr2 = word2.toCharArray();
+
+        Arrays.sort(arr1);
+        Arrays.sort(arr2);
+        if (Arrays.equals(arr1,arr2)){
+            System.out.println("anagrams!");
+        }
+        else
+            System.out.println("not anagrams");;
+
+    }
+    public static void findFirstNonRepetetiveChar() {
+//First non repetitive char in a string
+        String input = "abcdedf";
+        char[] inpArray = input.toCharArray();
+        boolean matchFound = false;
+        for (int i = 0; i<inpArray.length-1;i++){
+            for (int j = i+1; j< inpArray.length;j++){
+                if (inpArray[i]==inpArray[j]){
+                    matchFound = true;
+                    System.out.println(inpArray[i]);
+                    break;
+                }
+            }
+            if (matchFound){
+                break;
+            }
+        }
+    }
+public static void CalculateMedian(){
+    int[] sortMe = {6,3,7,4,5,1,2,8,9};
+
+    for (int i = 0; i < sortMe.length; i++){
+        for (int j = i+1; j < sortMe.length; j++){
+            if (sortMe[i]>sortMe[j]){
+                int k = sortMe[i];
+                sortMe[i] = sortMe[j];
+                sortMe[j]= k;
+            }
+        }
+    }
+    double median = 0;
+    if (sortMe.length%2==0){
+        System.out.println(sortMe.length +" length");
+        median = (double) (sortMe[sortMe.length/2]+sortMe[(sortMe.length/2)+1])/2;
+    }
+    else if (sortMe.length%2==1){
+        median = (double)sortMe[sortMe.length/2];
+    }
+    System.out.println("median is "+ median);
+    for (int i = 0; i < sortMe.length; i++) {
+        System.out.print(sortMe[i]+ ", ");
+
+    }
+}
 public void findnumofchars(){
     String input = "aaasssdddqqqwwweasdasdqwwwqqee1233";
     String[] inputarray = input.split("");

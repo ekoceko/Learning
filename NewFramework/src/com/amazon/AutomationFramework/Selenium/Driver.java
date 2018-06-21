@@ -16,6 +16,7 @@ public class Driver {
         Instance = new FirefoxDriver();
         Instance.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
+
     }
 
     public static void Close() {
