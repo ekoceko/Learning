@@ -3,7 +3,7 @@ package LogicTests;
 import java.util.HashSet;
 import java.util.*;
 
-public class GeneralTests {
+public  class GeneralTests {
     public static void main(String args[]) {
         String[] Sinput = {"ekrem", "bahar","cek", "savcun"};
         String[] Sinput2 = {"bahar","cek", "savcun"};
@@ -15,7 +15,30 @@ public class GeneralTests {
         System.out.println(input1);
         return input1;
     }
+    public void writeCharCounts(){
+        //Convert aaabbccdaa to a3b2c2d1a2
+        String input = "aaabbccdaa";
+        char[]chars = input.toCharArray();
+        Arrays.sort(chars);
+        int charcount = 1;
+        StringBuilder result = new StringBuilder();
+        for (int i = 0; i < chars.length-1;i++){
+            if (chars[i]==chars[i+1]){
+                charcount += 1;
+            }
+            else{
+                result.append(chars[i]);
+                result.append(charcount);
+                charcount = 1;
+                if (i+1==chars.length-1){
+                    result.append(chars[i+1]);
+                    result.append(charcount);
 
+                }
+            }
+        }
+        System.out.println(result);
+    }
     public void moveDuplicates(){
         Integer[] ints = {1,1,2,3,4,5,5,1,2,3,1,2,3,4};
         ArrayList intlistall = new ArrayList(Arrays.asList(ints));
