@@ -1,8 +1,10 @@
-package DataStructures;
+package DataStructures.Tests;
 
-public class Test {
+import DataStructures.Types.StackClass;
+
+public class StackTest {
     public static void main(String args[]){
-        BasicStack<String> stack = new BasicStack<>();
+        StackClass<String> stack = new StackClass<>();
         stack.push("Ace of Spades");
         stack.push("2 of Spades");
         stack.push("3 of Spades");
@@ -63,7 +65,7 @@ public class Test {
         stack.push("King of Hearts");
 
         System.out.println("s1 contains 9 "+stack.contains("9 of Hearts"));
-        stack.access("Ace of Spadesx");
+        stack.access("10 of Clubs");
         System.out.println("s1 size is: "+stack.size());
     }
 

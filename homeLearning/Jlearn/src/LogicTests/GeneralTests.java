@@ -5,10 +5,33 @@ import java.util.*;
 
 public  class GeneralTests {
     public static void main(String args[]) {
-        String[] Sinput = {"ekrem", "bahar","cek", "savcun"};
-        String[] Sinput2 = {"bahar","cek", "savcun"};
+    int[] input = {7,5,3,1,4,2,6,9,0};
+
 
     }
+    public static boolean checkPalindrome(String input){
+
+        int stringLength = input.length();
+
+        for (int i =0;i<stringLength;i++){
+            if (input.charAt(i)!=input.charAt(stringLength-i-1)){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    static int div(int a, int b) {
+        int count = a;
+        int sum = b;
+        while (sum <= a) {
+            sum += b;
+            count++;
+        }
+    return count;
+    }
+
+
     public static HashSet<String> returnCommon(List<String> list1, List<String> list2){
         HashSet<String> input1 = new HashSet(Arrays.asList(list1));
         input1.retainAll(Arrays.asList(list2));

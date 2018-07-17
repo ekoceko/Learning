@@ -1,4 +1,4 @@
-package DataStructures;
+package DataStructures.Types;
 
 public class BasicStack<X> {
     private X[] data;
