@@ -4,10 +4,51 @@ import java.util.HashSet;
 import java.util.*;
 
 public  class GeneralTests {
-    public static void main(String args[]) {
-    int[] input = {7,5,3,1,4,2,6,9,0};
+    public static void main(String[] args) {
+        String input = "EEKKREEMM";
+        char[] inputArray = input.toCharArray();
+        int[] dupIndexes = new int[inputArray.length];
+        int dupIndexCounter = 0;
+        for (int i = 0; i < inputArray.length; i++) {
+            for (int j = 0; j < inputArray.length; j++) {
 
+                if (i != j && inputArray[i] == inputArray[j]) {
+                    dupIndexes[dupIndexCounter++] = inputArray[i];
+                }
+            }
+        }
+    }
 
+    private static boolean isDup(int[] dupIndexes, int indexToTest) {
+        for (int i = 0; i < dupIndexes.length; i++) {
+
+        }
+        return true;
+    }
+
+    public static void countCharacters(String input) {
+        //String input = "abcdefghh";
+
+        int counter=1;
+        String result="";
+        for (int i = 0; i < input.length()-1;i++){
+            if (input.charAt(i)==input.charAt(i+1)){
+                counter++;
+                if (i==input.length()-2){
+                    result += input.charAt(i);
+                    result += counter;
+                }
+            }else {
+                result += input.charAt(i);
+                result += counter;
+                counter =1;
+                if (i==input.length()-2){
+                    result += input.charAt(i+1);
+                    result += 1;
+                }
+            }
+        }
+        System.out.println(result);
     }
     public static boolean checkPalindrome(String input){
 
@@ -32,11 +73,10 @@ public  class GeneralTests {
     }
 
 
-    public static HashSet<String> returnCommon(List<String> list1, List<String> list2){
-        HashSet<String> input1 = new HashSet(Arrays.asList(list1));
+    private static void returnCommon(String[] list1, String[] list2){
+        HashSet<String> input1 = new HashSet<>(Arrays.asList(list1));
         input1.retainAll(Arrays.asList(list2));
         System.out.println(input1);
-        return input1;
     }
     public void writeCharCounts(){
         //Convert aaabbccdaa to a3b2c2d1a2
@@ -64,19 +104,17 @@ public  class GeneralTests {
     }
     public void moveDuplicates(){
         Integer[] ints = {1,1,2,3,4,5,5,1,2,3,1,2,3,4};
-        ArrayList intlistall = new ArrayList(Arrays.asList(ints));
-        ArrayList duplicates = new ArrayList();
+        ArrayList<Integer> intlistall = new ArrayList<>(Arrays.asList(ints));
+        ArrayList<Integer> duplicates = new ArrayList<>();
         for (int i =0; i<intlistall.size();i++){
             for (int j =i+1;j < ints.length;j++){
-                if (intlistall.get(i)==intlistall.get(j)){
+                if (intlistall.get(i).equals(intlistall.get(j))){
                     duplicates.add(intlistall.get(i));
                     break;
                 }
             }
         }
-        for (int k =0;k< duplicates.size();k++){
-            intlistall.remove(duplicates.get(k));
-        }
+        intlistall.removeAll(duplicates);
         System.out.println(intlistall);
     }
 

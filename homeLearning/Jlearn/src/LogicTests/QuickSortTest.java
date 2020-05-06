@@ -7,11 +7,10 @@ public class QuickSortTest {
         quickSort(input);
         printArray(input,0,input.length-1);
     }
-    public static int[] quickSort(int[] inputArray){
+    private static void quickSort(int[] inputArray){
         int low = 0;
         int high = inputArray.length-1;
         sort(inputArray,low,high);
-        return inputArray;
     }
     private static void sort(int[] arr, int low, int high){
         if (low>=high){

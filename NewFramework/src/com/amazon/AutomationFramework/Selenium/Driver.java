@@ -13,7 +13,10 @@ public class Driver {
 
     public static void Initialize(){
         System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
-        Instance = new FirefoxDriver();
+        if (null == Instance) {
+            Instance = new FirefoxDriver();
+        }
+
         Instance.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
 
